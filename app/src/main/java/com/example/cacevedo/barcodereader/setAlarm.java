@@ -51,7 +51,7 @@ public class setAlarm extends AppCompatActivity implements View.OnClickListener{
             mDay = c.get(Calendar.DAY_OF_MONTH);
 
 
-            DatePickerDialog datePickerDialog = new DatePickerDialog(  this, android.app.AlertDialog.THEME_HOLO_DARK,
+            DatePickerDialog datePickerDialog = new DatePickerDialog(  this, android.app.AlertDialog.THEME_DEVICE_DEFAULT_LIGHT,
                     new DatePickerDialog.OnDateSetListener() {
 
                         @Override
@@ -72,7 +72,7 @@ public class setAlarm extends AppCompatActivity implements View.OnClickListener{
             mMinute = c.get(Calendar.MINUTE);
 
             // Launch Time Picker Dialog
-            TimePickerDialog timePickerDialog = new TimePickerDialog(this, android.app.AlertDialog.THEME_HOLO_DARK,
+            TimePickerDialog timePickerDialog = new TimePickerDialog(this, android.app.AlertDialog.THEME_DEVICE_DEFAULT_LIGHT,
                     new TimePickerDialog.OnTimeSetListener() {
 
                         @Override
