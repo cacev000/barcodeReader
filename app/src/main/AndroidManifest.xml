@@ -23,7 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".profile" />
-        <activity android:name=".medications"></activity>
+        <activity android:name=".medications" />
+        <activity android:name=".setAlarm"></activity>
     </application>
 
 </manifest>

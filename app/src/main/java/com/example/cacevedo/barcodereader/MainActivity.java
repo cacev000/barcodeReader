@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.medications:
                 startActivity(new Intent(this, medications.class));
                 return true;
+            case R.id.setAlarm:
+                startActivity(new Intent(this, setAlarm.class));
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

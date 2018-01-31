@@ -5,4 +5,6 @@
         android:title="Profile" />
     <item android:id="@+id/medications"
         android:title="Medications" />
+    <item android:id="@+id/setAlarm"
+        android:title="Set Alarm" />
 </menu>
